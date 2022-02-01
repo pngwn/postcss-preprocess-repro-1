@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.36",
+    "postcss-nested": "^5.0.6",
+    "svelte": "^3.46.3",
+    "svelte-preprocess": "^4.10.2",
+    "vite": "^2.7.13"
+  }
+}
