@@ -4,16 +4,16 @@ import sveltePreprocess from 'svelte-preprocess';
 import nested from 'postcss-nested'
 
 export default defineConfig({
-	plugins: [
-		svelte({
+  plugins: [
+    svelte({
       // this works
-			// preprocess: sveltePreprocess({ postcss: { plugins: [nested] }})
+      // preprocess: sveltePreprocess({ postcss: { plugins: [nested] }})
 
       // this does not
       //preprocess: sveltePreprocess({ postcss: true })
 
       // nor this
       preprocess: sveltePreprocess()
-		})
-	]
+    })
+  ]
 });
